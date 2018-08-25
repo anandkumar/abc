@@ -10,15 +10,15 @@
  * things in this file. Those APIs should be used instead of attempting to use
  * `remove_action()`.
  *
- * @package    Mythic
+ * @package   Artika
  * @subpackage Includes
- * @author     Justin Tadlock <justintadlock@gmail.com>
- * @copyright  Copyright (c) 2018, Justin Tadlock
- * @link       https://themehybrid.com/themes/mythic
+ * @author     Anand Kumar <anand@anandkumar.net>
+ * @copyright  Copyright (c) 2018, Anand Kumar
+ * @link       https://www.digitalliberation.org/themes/artika
  * @license    http://www.gnu.org/licenses/old-licenses/gpl-2.0.html
  */
 
-namespace Mythic;
+namespace Artika;
 
 /**
  * Set up theme support.  This is where calls to `add_theme_support()` happen.
@@ -37,7 +37,7 @@ add_action( 'after_setup_theme', function() {
 	$GLOBALS['content_width'] = 750;
 
 	// Load theme translations.
-	load_theme_textdomain( 'mythic', get_parent_theme_file_path( 'resources/lang' ) );
+	load_theme_textdomain( 'artika', get_parent_theme_file_path( 'resources/lang' ) );
 
 	// Automatically add the `<title>` tag.
 	add_theme_support( 'title-tag' );
@@ -221,7 +221,7 @@ add_action( 'init', function() {
 	set_post_thumbnail_size( 178, 100, true );
 
 	// Register custom image sizes.
-	add_image_size( 'mythic-medium', 750, 422, true );
+	add_image_size( 'artika-medium', 750, 422, true );
 
 }, 5 );
 

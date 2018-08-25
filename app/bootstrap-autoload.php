@@ -5,14 +5,14 @@
  * This file is used to autoload classes and functions necessary for the theme
  * to run.
  *
- * @package   Mythic
- * @author    Justin Tadlock <justintadlock@gmail.com>
- * @copyright Copyright (c) 2018, Justin Tadlock
- * @link      https://themehybrid.com/themes/mythic
+ * @package   Artika
+ * @author    Anand Kumar <anand@anandkumar.net>
+ * @copyright Copyright (c) 2018, Anand Kumar
+ * @link      https://www.digitalliberation.org/themes/artika
  * @license   http://www.gnu.org/licenses/old-licenses/gpl-2.0.html
  */
 
-namespace Mythic;
+namespace Artika;
 
 # ------------------------------------------------------------------------------
 # Run the Composer autoloader.

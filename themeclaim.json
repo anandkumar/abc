@@ -1,11 +1,18 @@
 {
-	"from": {
-		"Name": "Mythic",
-		"Description": "Mythic is a next-generation starter theme designed to help theme authors write elegant, intelligent, and modern code.",
-		"Namespace": "Mythic",
-		"Uri": "https://themehybrid.com/themes/mythic",
-		"Author": "Justin Tadlock",
-		"AuthorEmail": "justintadlock@gmail.com",
-		"AuthorUri": "https://themehybrid.com"
-	}
+  "from": {
+    "Name": "Mythic",
+    "Description": "Mythic is a next-generation starter theme designed to help theme authors write elegant, intelligent, and modern code.",
+    "Uri": "https://themehybrid.com/themes/mythic",
+    "Author": "Justin Tadlock",
+    "AuthorEmail": "justintadlock@gmail.com",
+    "AuthorUri": "https://themehybrid.com"
+  },
+  "to": {
+    "Name": "Artika",
+    "Description": "This is an awesome WordPress theme based on Hybrid core 5.0 framework and Mythic.",
+    "Uri": "https://www.digitalliberation.org/themes/artika",
+    "Author": "Anand Kumar",
+    "AuthorEmail": "anand@anandkumar.net",
+    "AuthorUri": "https://www.anandkumar.net"
+  }
 }

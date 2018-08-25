@@ -6,18 +6,18 @@
  * Customization API. This is the place to set up all of your theme options for
  * the customizer.
  *
- * @package   Mythic
- * @author    Justin Tadlock <justintadlock@gmail.com>
- * @copyright Copyright (c) 2018, Justin Tadlock
- * @link      https://themehybrid.com/themes/mythic
+ * @package   Artika
+ * @author    Anand Kumar <anand@anandkumar.net>
+ * @copyright Copyright (c) 2018, Anand Kumar
+ * @link      https://www.digitalliberation.org/themes/artika
  * @license   http://www.gnu.org/licenses/old-licenses/gpl-2.0.html
  */
 
-namespace Mythic\Customize;
+namespace Artika\Customize;
 
 use WP_Customize_Manager;
 use Hybrid\Contracts\Bootable;
-use function Mythic\asset;
+use function Artika\asset;
 
 /**
  * Handles setting up everything we need for the customizer.
@@ -165,7 +165,7 @@ class Customize implements Bootable {
 	public function controlsEnqueue() {
 
 		wp_enqueue_script(
-			'mythic-customize-controls',
+			'artika-customize-controls',
 			asset( 'js/customize-controls.js' ),
 			[ 'customize-controls' ],
 			null,
@@ -173,7 +173,7 @@ class Customize implements Bootable {
 		);
 
 		wp_enqueue_style(
-			'mythic-customize-controls',
+			'artika-customize-controls',
 			asset( 'css/customize-controls.css' ),
 			[],
 			null
@@ -190,7 +190,7 @@ class Customize implements Bootable {
 	public function previewEnqueue() {
 
 		wp_enqueue_script(
-			'mythic-customize-preview',
+			'artika-customize-preview',
 			asset( 'js/customize-preview.js' ),
 			[ 'customize-preview' ],
 			null,

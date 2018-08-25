@@ -1,10 +1,10 @@
 {
-	"name": "mythic",
+	"name": "artika",
 	"version": "1.0.0",
-	"description": "Mythic is a next-generation starter theme designed to help theme authors write elegant, intelligent, and modern code.",
-	"author": "Justin Tadlock",
+	"description": "This is an awesome WordPress theme based on Hybrid core 5.0 framework and Artika.",
+	"author": "Anand Kumar",
 	"license": "GPL-2.0+",
-	"homepage": "https://themehybrid.com/themes/mythic",
+	"homepage": "https://www.digitalliberation.org/themes/artika",
 	"main": "resources/js/app.js",
 	"scripts": {
 		"build": "npm run prod && npm run i18n && npm run bundle",
@@ -24,10 +24,10 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/justintadlock/mythic.git"
+		"url": "git+https://github.com/anandkumar/artika.git"
 	},
 	"bugs": {
-		"url": "https://github.com/justintadlock/mythic/issues"
+		"url": "https://github.com/anandkumar/artika/issues"
 	},
 	"devDependencies": {
 		"browser-sync": "^2.24.6",
@@ -38,7 +38,7 @@
 		"eslint-config-wordpress": "^2.0.0",
 		"imagemin-mozjpeg": "^6.0.0",
 		"imagemin-webpack-plugin": "^2.2.0",
-		"laravel-mix": "^2.1.0",
+		"laravel-mix": "^2.1.14",
 		"node-wp-i18n": "^1.2.0",
 		"postcss-preset-env": "^5.3.0",
 		"rimraf": "^2.6.2",

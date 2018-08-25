@@ -1,6 +1,6 @@
-# Mythic
+# Artika
 
-Mythic is a starter theme for WordPress.
+Artika is a starter theme for WordPress.
 
 The theme's primary goal is to offer a modern development experience for WordPress theme authors while sticking as close to possible to WordPress standards as we can.  Sometimes those things don't always mesh well.  This theme aims to balance that.
 
@@ -17,10 +17,10 @@ You should feel reasonably comfortable using the command line. The theme tries t
 
 ## Documentation
 
-Check out the [project wiki](https://github.com/justintadlock/mythic/wiki) to learn how to install and set up the theme.
+Check out the [project wiki](https://github.com/anandkumar/artika/wiki) to learn how to install and set up the theme.
 
 ## Copyright and License
 
-Mythic is licensed under the [GNU GPL](http://www.gnu.org/licenses/old-licenses/gpl-2.0.html), version 2 or later.
+Artika is licensed under the [GNU GPL](http://www.gnu.org/licenses/old-licenses/gpl-2.0.html), version 2 or later.
 
-2018 &copy; Justin Tadlock.
+2018 &copy; Anand Kumar.
